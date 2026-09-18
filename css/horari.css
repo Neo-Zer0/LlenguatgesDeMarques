@@ -1,0 +1,26 @@
+table {
+    width: 90vw;
+    height: 80vh;
+
+    margin-left: 5vw;
+}
+
+tbody td:first-of-type {
+    background-color: gray;
+}
+
+tbody td:first-of-type:hover, .empty:hover, .pati:hover {
+    transform: scale(1.0);
+    transition: 0;
+    filter: none;
+}
+
+td {
+    text-align: center;
+}
+
+td:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+    filter: brightness(110%)
+}
