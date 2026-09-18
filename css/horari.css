@@ -3,6 +3,11 @@ table {
     height: 80vh;
 
     margin-left: 5vw;
+    table-layout: fixed;
+}
+
+thead th {
+    background-color: gray;
 }
 
 tbody td:first-of-type {
@@ -17,10 +22,43 @@ tbody td:first-of-type:hover, .empty:hover, .pati:hover {
 
 td {
     text-align: center;
+    background-color: lightgrey;
 }
 
 td:hover {
     transform: scale(1.5);
     transition: 0.3s;
     filter: brightness(110%)
+}
+
+.pati {
+    background-color: beige;
+}
+
+.progra {
+    background-color: lightpink;
+}
+
+.tutoria {
+    background-color: lightblue;
+}
+
+.sistemes {
+    background-color: lightgoldenrodyellow;
+}
+
+.web {
+    background-color: lightskyblue;
+}
+
+.bbdd {
+    background-color: lightsalmon;
+}
+
+.ipo {
+    background-color: lightsteelblue;
+}
+
+.erp {
+    background-color: lightgreen;
 }
