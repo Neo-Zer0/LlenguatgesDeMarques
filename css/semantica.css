@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+}
+
+.bigDiv {
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.bigDiv aside {
+    flex: 1;
+    background-color: lightskyblue;
+
+    padding: 1em;
+    gap: 0.5em;
+
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bigDiv aside article {
+    flex: 1;
+    background-color: lightsalmon;
+
+    padding: 1.2em;
+}
+
+.bigDiv aside article img {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.bigDiv .center {
+    padding: 1em;
+    flex: 3;
+}
+
+.center h2 {
+    text-align: center;
+}
