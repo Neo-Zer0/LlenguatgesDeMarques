@@ -9,13 +9,6 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    padding: 1em;
-
-    font-size: 3em;
-    text-align: center;
-}
-
 main {
     flex: 1;
 

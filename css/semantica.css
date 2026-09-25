@@ -17,7 +17,7 @@ main {
 
 .bigDiv aside {
     flex: 1;
-    background-color: lightskyblue;
+    background-color: rgb(241, 232, 153);
 
     padding: 1em;
     gap: 0.5em;
@@ -31,9 +31,9 @@ main {
 
 .bigDiv aside article {
     flex: 1;
-    background-color: lightsalmon;
 
     padding: 1.2em;
+    background-color: rgb(245, 245, 245);
 }
 
 .bigDiv aside article img {

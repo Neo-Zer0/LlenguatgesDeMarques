@@ -1,0 +1,68 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: xx-large;
+    color: brown;
+}
+
+span {
+    font-weight: bold;
+    color: crimson;
+}
+
+section {
+    padding: 1em;
+}
+
+blockquote {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+blockquote span {
+    font-weight: bold;
+    color: cadetblue;
+}
+
+section img {
+    margin-top: 1em;
+    width: 100%;
+}
+
+
+dt {
+    font-weight: bolder;
+    color: tomato;
+}
+
+dd {
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+
+    color: slategrey;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+
+@media (min-width: 850px) {
+    .imgContainer {
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .imgBox {
+        flex: 1;
+    }
+
+    .imgBox img {
+        height: 100%;
+    }
+}
