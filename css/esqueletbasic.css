@@ -51,12 +51,3 @@ main {
     transition: 0.4s;
 }
 
-footer {
-    min-height: 10vh;
-    background-color: rgb(35, 35, 35);
-    color: white;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

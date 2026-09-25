@@ -8,6 +8,12 @@
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 header {
@@ -50,4 +56,16 @@ nav ul li:hover {
     cursor: pointer;
 
     transition: 0.4s;
+}
+
+footer {
+    min-height: 4em;
+    background-color: rgb(37, 36, 45);
+
+    color: azure;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
