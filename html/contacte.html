@@ -11,7 +11,9 @@
     </head>
     <body>
         <header>
-            <h1>Contacte</h1>
+            <div class="flex1"></div>
+            <h1 class="flex1">Contacte</h1>
+            <div class="flex1" id="registerDiv"><a href="./registre.html" id="registerLink">Login</a></div>
         </header>
         <nav>
             <ul>
@@ -24,9 +26,21 @@
         </nav>
 
         <main>
-            <h2 style="font-size: 80px; color: red;">
-                S'HA DE FER S'HA DE FER
-            </h2>
+            <h2>Per contactar-me:</h2>
+            <a href="mailto:marc.silvad@educem.net">Click aqui!</a>
+
+            <h2>Si vols deixar un comentari a la pàgina web:</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="user"><b>Usuari</b></label>
+                    <input id="user" type="text" placeholder="Nom d'usuari..." name="uname" required>
+                </p>
+                <p>
+                    <label for="mail"><b>Contrassenya</b></label>
+                    <input id="mail" type="email" placeholder="Correu de contacte..." name="umail" required>
+                </p>
+                <textarea name="userText" id="message" rows="10" cols="100" placeholder="Escriu aqui el teu comentari..."></textarea>
+            </form>
         </main>
 
         <footer><strong>Copyright de Marc</strong></footer>
