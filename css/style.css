@@ -33,6 +33,40 @@ header {
     flex-direction: row;
 }
 
+#homeDiv {
+    display: flex;
+    justify-content: start;
+
+    padding: 2em;
+}
+
+#homeLink {
+    background-color: rgb(37, 36, 45);
+    color: white;
+
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    height: max-content;
+    width: max-content;
+
+    border-radius: 5px;
+    border: 3px solid darkgray;
+
+    box-sizing: border-box;
+    padding: 0.5em;
+    transition: 0.5s;
+}
+
+#homeLink:hover {
+    transition: 0.5s;
+
+    background-color: darkgray;
+    
+    border: 3px solid rgb(37, 36, 45);
+    scale: 1.1;
+}
+
 #registerDiv {
     display: flex;
     justify-content: end;
