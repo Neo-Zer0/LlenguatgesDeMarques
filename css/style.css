@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
 
-    text-decoration: none;
+    /* text-decoration: none; */
     /* list-style: none;  */
 }
+
 
 h1 {
     height: 100%;
@@ -31,6 +32,10 @@ header {
     min-height: 20vh;
     display: flex;
     flex-direction: row;
+}
+
+header a {
+    text-decoration: none;
 }
 
 #homeDiv {
@@ -115,6 +120,7 @@ nav ul li a {
     height: 100%;
 
     padding-top: 10px;
+    text-decoration: none;
 }
 
 nav ul li {

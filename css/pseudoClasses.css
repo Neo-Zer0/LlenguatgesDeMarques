@@ -1,0 +1,27 @@
+main a:visited {
+    color: red;
+}
+
+main a:link {
+    color: green;
+}
+
+main a:active {
+    color: chartreuse;
+}
+
+main ul li:hover {
+    background-color: rgb(197, 197, 197);
+}
+
+input:checked {
+    scale: 4;
+}
+
+input:required {
+    background-color: rgb(255, 216, 216);
+}
+
+input:optional {
+    background-color: lightgreen;
+}
