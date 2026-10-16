@@ -25,3 +25,37 @@ input:required {
 input:optional {
     background-color: lightgreen;
 }
+
+ul:first-child {
+    background-color: burlywood;
+}
+
+ul:first-of-type {
+    background-color: aqua;
+}
+
+main :nth-of-type(3) {
+    background-color: rgb(255, 220, 220);
+}
+
+h2::after {
+    content: " --- test";
+    color: lightgrey;
+}
+
+h2::before {
+    content: "test front --- ";
+    color: lightgrey;
+}
+
+p::first-letter {
+    font-size: 35px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: lightsalmon;
+    color: rebeccapurple;
+    
+}
